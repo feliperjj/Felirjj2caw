@@ -1,0 +1,31 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+		<!-- Esse cabeçalho serve para que as letras com acento e não fiquem como um simbolo estranho-->
+		<meta charset="UTF-8">
+		<meta name = "description" content="Primeiro Programa Felipe">
+		<meta name ="keywords" content="FELIPE">
+		<meta name="author" content="Felipe">
+		
+		
+		<title>Faeterj</title>
+		</head>
+			<body>
+			<!-- Aqui se escreve o texto Basicamente o corpo da pagina-->
+				<h1>Faeterj Quintino</h1>
+				<h1>Análise e desenvolvimento de sistemas</h1>
+				
+				<p>O tecnólogo em Análise e Desenvolvimento de Sistemas é um profissional de nível superior que analisa, projeta, documenta, especifica, testa, implementa e cuida da manutenção de sistemas computacionais e softwares.
+
+Analistas e desenvolvedores de sistemas trabalham principalmente na produção de softwares, podendo atuar em diversas fases da criação de um sistema computacional: levantamento de requisitos, projeto, especificação, documentação, implantação, testes e manutenções. De qualquer forma, o principal objetivo de um profissional de Análise e Desenvolvimento de Sistemas é analisar e propor soluções tecnológicas.<p>
+				<p>O curso de tecnólogo em Análise e Desenvolvimento de Sistemas é uma formação de nível superior que dura entre dois anos e meio e três anos, podendo ser oferecido no formato presencial ou a distância. Por ser um curso tecnológico, é uma formação voltada ao mercado de trabalho e o aluno tem a oportunidade de realizar atividades práticas que serão exigidas pela empresa onde for trabalhar.<p>
+			<!--Caso queira colocar um link direcionado-->
+			<p><a href="https://www.faeterj-rio.edu.br/">
+			             Faeterj-Rio </a> Conheça mais  sobre!  </p>
+			
+			
+			<p><a href="https://www.youtube.com/watch?v=qg2EqHDyJGM">
+                Caso queira fazer um bolo!!! </a> </p>			
+			</body>
+			
+	</html>
