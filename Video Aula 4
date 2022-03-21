@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html>
+		<header>
+			<title>Bullshit</title>
+		 </header>
+			<body style="background-color:silver;">
+				<h1 style="color:red;">Video Vulcoes Aula 4</h1>
+				
+				<img src="https://static.escolakids.uol.com.br/2020/11/vulcao-indonesia.jpg" width = "30%">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/eRvObKZsMus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<table>
+					<caption style="color:red;">Vulcoes</caption>
+				<thead>
+					<tr>
+						<th>Vulcao</th>
+						<th>Local</th>
+						<th>Ultima Erupção<th>
+					</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<th>Kīlauea</th>
+							<td>Havaii</td>
+							<td>07/05/2018</td>
+                         </tr>
+                         
+                          <tr>
+							 <th>Etna</th>
+							 <td>Itália</td>
+							 <td>05/03/2009<td>
+						  </tr>
+						  
+						  <tr>
+						     <th>Nyiragongo</th>
+							 <td>Congo</td>
+							 <td>20/08/2002</td>
+						</tbody>	 
+					
+				</body>
