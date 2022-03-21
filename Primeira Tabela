@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<header>
+	
+	<title>Hortifruti</title>
+	</header>
+	<body style="background-color:silver;">
+			<h1>Hortifruti</h1>
+				<img src="imagem.jpg">
+				<p>Segue Abaixo a Tabela de Preços e Variedades</p>
+				<table>
+					<!-->Faz o titulo da tabela-->
+					<caption>Frutas</caption>
+				<!--> Faz as linhas do titulo de cada coluna da tabela -->
+				<thead>
+			     <!--> Forma a linha da tabela -->
+				<tr>
+                 <!--> Conteudo da Linha -->
+					<th>Item</th>
+					<th>Preço</th>
+				</tr>
+				</thead>
+			<!--> Aqui ficam os dados da coluna -->
+			<tbody>
+				<tr>
+					<th>1-Laranja</th>
+					<td>5R$-Kg</td>
+				</tr>
+				<tr>
+					<th>2-Banana</th>
+					<td>3R$-Kg</td>
+				</tr>
+				<tr>
+					<th>3-Uva</th>
+					<td>6R$-Kg</td>
+				</tr>
+					</tbody>
+					</table>
+					
+					<table>
+						<caption>Hortaliças</caption>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Preço</th>
+							</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>Alface</th>
+									<th>2R$</th>
+								 </tr>
+								 <tr>
+									<th>Couve</th>
+									 <th>3R$</th>
+								</tr>
+								<tr>
+									<th>Repolho</th>
+									<th>2R$</th>
+								</tr>
+									</tbody>
+									</table>
+									</body>
+									</html>
+									
