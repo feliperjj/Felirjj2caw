@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+	<html>
+		<header>
+			<title>Vulcao</title>
+		 </header>
+			<body style="background-color:SlateGray;">
+				<h1 style="text-align:center;color:red;">Video  Aula 4</h1>
+				
+				<video controls src="http://media.w3.org/2010/05/bunny/movie.ogv" width="500" height="600">
+									Seu navegador nao suporta videos em HTML5
+					</video>
+					<audio controls src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.oga">
+					
+					</audio>
+					</body>
+					</html>
