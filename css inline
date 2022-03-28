@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<header>
+	
+	<title>Hortifruti</title>
+	</header>
+	</head>
+	<body>
+	<meta charset ="utf-8">
+	<title> Css </title>
+	<style>
+	table,th,tf,tr{
+	border:2px solid black;border-collapse:collapse;}
+	</style>
+	</head>
+			<h1>Hortifruti</h1>
+				<img src="https://canamfruits.com/wp-content/uploads/2017/08/fruits-and-vegetables.jpg" width="30%">
+				<p>Segue Abaixo a Tabela de Preços e Variedades</p>
+				<table>
+					
+					<caption>Frutas</caption>
+				
+				<thead>
+			     
+				<tr>
+                 
+					<th>Item</th>
+					<th>Preço</th>
+					<th > Dia da Promoção</th>
+				</tr>
+				</thead>
+			
+			<tbody>
+				<tr>
+					<th>Laranja</th>
+					<img src = "https://www.capitalmudas.com.br/tim.php?src=uploads/fornecedores/2019/06/laranja-seleta.jpg&w=800&h=400" width="10%">
+					<td>5R$-Kg</td>
+					<th>  Segunda Feira </th>
+					
+				</tr>
+				
+				<tr>
+					<th>Banana</th>
+					<td >3R$-Kg</td>
+					<th > Quarta feira</th>
+				</tr>
+				<tr>
+					<th >Uva</th>
+					<td >6R$-Kg</td>
+					<th>Domingo </th>
+					
+				</tr>
+					</tbody>
+					</table>
+					
+					<table  >
+						<caption>Hortaliças</caption>
+						<thead>
+							<tr>
+								<th >Item</th>
+								<td >Preço</td>
+								<th> Sexta-Feira</th>
+							</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th >Alface</th>
+									<td >2R$</td>
+									<th>Sábado</th>
+								 </tr>
+								 <tr>
+									<th>Couve</th>
+									 <th>3R$</th>
+									 <th >  Quinta-Feira</th>
+								</tr>
+								<tr>
+									<th >Repolho</th>
+									<td>2R$</td>
+									<th> Terça Feira </th>
+								</tr>
+								
+							
+									</tbody>
+									</table>
+									<form action="http://www.google.com/search" method="get">
+								<label>Google: <input type="search" name="q"></label>
+									<input type="submit" value="Search...">
+						
+										<fieldset name="userinfo">
+										<legend>Informações do usuário</legend>
+										<label for="nome">Nome</label>
+										<input type="text" name="nome" size="40">
+										<label for="address">Endereço</label>
+										<input type="text" name="endereco" size="40">
+								         		<label for="phone">Phone</label>
+										<input type="text" name="phone" size="40">
+										</fieldset>
+						<fieldset name ="Compra">
+							<input type = "radio" name="Entrega" value="delivery">Entrega<br>
+							<input type="radio" name="Entrega" value="retirada">Retirada<br>
+	                       </fieldset>
+						   <fieldset name="Produtos">
+						   <label for="compras">Produtos</label>
+						   <input type="checkbox" name="compras" value="banana" > Banana<br>
+						   <input type="checkbox" name="compras" value="laranja" >Laranja <br>
+						   <input type="checkbox" name="compras" value="uva" > Uva <br>
+						   <input type="checkbox" name="compras" value="alface"  > Alface <br>
+						   <input type="checkbox" name="compras" value="couve"  > Couve <br>
+						   <input type="checkbox" name="compras" value="repolho"  >Repolho <br>
+						   	</fieldset>
+							<button type="submit" value="submit">Submit</button>
+							<button type="reset" value="reset">Reset</button>
+						
+									
+									
+									</form>
+									
+									</body>
+									</html>
