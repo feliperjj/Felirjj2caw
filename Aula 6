@@ -1,0 +1,111 @@
+	<!DOCTYPE html>
+<html>
+	<header>
+	
+	<title>Hortifruti</title>
+	</header>
+	<body style="background-color:silver;">
+			<h1 style="text-align:center;">Hortifruti</h1>
+				<img src="https://canamfruits.com/wp-content/uploads/2017/08/fruits-and-vegetables.jpg" width="30%">
+				<p style="color:green;">Segue Abaixo a Tabela de Preços e Variedades</p>
+				<table style="border:2px solid red;border-collapse:collapse;">
+					
+					<caption style="color:red;">Frutas</caption>
+				
+				<thead>
+			     
+				<tr style="border:2px solid red;border-collapse:collapse;" >
+                 
+					<th style="border:2px solid red;border-collapse:collapse;">Item</th>
+					<th style="border:2px solid red;border-collapse:collapse;" >Preço</th>
+					<th style="border:2px solid red;border-collapse:collapse;" > Dia da Promoção</th>
+				</tr>
+				</thead>
+			
+			<tbody>
+				<tr>
+					<th style="border:2px solid red;border-collapse:collapse;">Laranja</th>
+					<img src = "https://www.capitalmudas.com.br/tim.php?src=uploads/fornecedores/2019/06/laranja-seleta.jpg&w=800&h=400" width="10%">
+					<td style="border:2px solid red;border-collapse:collapse;">5R$-Kg</td>
+					<th style="border:2px solid red;border-collapse:collapse;" >  Segunda Feira </th>
+					
+				</tr>
+				
+				<tr>
+					<th style="border:2px solid red;border-collapse:collapse;">Banana</th>
+					<td style="border:2px solid red;border-collapse:collapse;">3R$-Kg</td>
+					<th style="border:2px solid red;border-collapse:collapse;"> Quarta feira</th>
+				</tr>
+				<tr>
+					<th style="color:purple;border-collapse:collapse;">Uva</th>
+					<td style="border:2px solid red;border-collapse:collapse;" >6R$-Kg</td>
+					<th style="border:2px solid red;border-collapse:collapse;">Domingo </th>
+					
+				</tr>
+					</tbody>
+					</table>
+					
+					<table style="border:2px solid red;border-collapse:collapse;" >
+						<caption>Hortaliças</caption>
+						<thead>
+							<tr style="border:2px solid red;border-collapse:collapse;">
+								<th style="border:2px solid red;border-collapse:collapse;">Item</th>
+								<td style="border:2px solid red;border-collapse:collapse;">Preço</td>
+								<th style="border:2px solid red;border-collapse:collapse;"> Sexta-Feira</th>
+							</tr>
+							</thead>
+							<tbody>
+								<tr style="border:2px solid red;border-collapse:collapse;">
+									<th style="border:2px solid red;border-collapse:collapse;">Alface</th>
+									<td style="border:2px solid red;border-collapse:collapse;">2R$</td>
+									<th style="border:2px solid red;border-collapse:collapse;" >Sábado</th>
+								 </tr>
+								 <tr>
+									<th style="border:2px solid red;border-collapse:collapse;" >Couve</th>
+									 <th style="border:2px solid red;border-collapse:collapse;" >3R$</th>
+									 <th style="border:2px solid red;border-collapse:collapse;" >  Quinta-Feira</th>
+								</tr>
+								<tr>
+									<th style="border:2px solid red;border-collapse:collapse;">Repolho</th>
+									<td style="border:2px solid red;border-collapse:collapse;">2R$</td>
+									<th style="border:2px solid red;border-collapse:collapse;"> Terça Feira </th>
+								</tr>
+								
+							
+									</tbody>
+									</table>
+									<form action="http://www.google.com/search" method="get">
+								<label>Google: <input type="search" name="q"></label>
+									<input type="submit" value="Search...">
+						
+										<fieldset name="userinfo">
+										<legend>Informações do usuário</legend>
+										<label for="nome">Nome</label>
+										<input type="text" name="nome" size="40">
+										<label for="address">Endereço</label>
+										<input type="text" name="endereco" size="40">
+								         		<label for="phone">Phone</label>
+										<input type="text" name="phone" size="40">
+										</fieldset>
+						<fieldset name ="Compra">
+							<input type = "radio" name="Entrega" value="delivery">Entrega<br>
+							<input type="radio" name="Entrega" value="retirada">Retirada<br>
+	                       </fieldset>
+						   <fieldset name="Produtos">
+						   <label for="compras">Produtos</label>
+						   <input type="checkbox" name="compras" value="banana" > Banana<br>
+						   <input type="checkbox" name="compras" value="laranja" >Laranja <br>
+						   <input type="checkbox" name="compras" value="uva" > Uva <br>
+						   <input type="checkbox" name="compras" value="alface"  > Alface <br>
+						   <input type="checkbox" name="compras" value="couve"  > Couve <br>
+						   <input type="checkbox" name="compras" value="repolho"  >Repolho <br>
+						   	</fieldset>
+							<button type="submit" value="submit">Submit</button>
+							<button type="reset" value="reset">Reset</button>
+						
+									
+									
+									</form>
+									
+									</body>
+									</html>
