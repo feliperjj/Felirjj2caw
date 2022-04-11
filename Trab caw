@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<header>
+		<title>Rogers Waters</title>
+	</header>
+<head>
+
+  </head>
+<body style="background-image: url(https://huntsmanhill.files.wordpress.com/2018/08/pink-floyd.jpeg);background-size: 100px 50px;background-size:cover;>                                                                                  
+		
+		<h1 style= text-align:center;font-size:50px;color:purple";>The Darkside OF The Moon</h1>
+		
+		
+		<p style=font-size:20px;color:black;">Tabela de Preços<p>
+		<table style="border:2px solid black;border-collapse:collapse;color:black;">
+			<caption style=color:black;>Ingresso</caption>
+			
+			<thead style="border:2px solid black;border-collapse:collapse;color:black;">
+			<tr style=color:black;>
+			
+				
+			    <th style=color:black;>Tipo de Ingresso</th>
+				<th style=color:black;>Preço</th>
+				
+			</tr>
+			
+			
+				<tbody style="border:2px solid black;border-collapse:collapse;color:black;">
+					
+						<tr style="border:2px solid black;border-collapse:collapse;color:black;">
+						
+								<th style="border:2px solid black;border-collapse:collapse;color:black;color:black;">Pista</th>
+								<td style="border:2px solid black;border-collapse:collapse;color:black;">250R$</td>
+				        </tr>
+
+
+                         <tr style="border:2px solid black;border-collapse:collapse;color:black;" >
+								<th style="border:2px solid black;border-collapse:collapse;color:black;">Pista 2</th>
+								<td style="border:2px solid black;border-collapse:collapse;color:black;">350R$</td>
+								
+						 </tr>
+						 
+						<tr style="border:2px solid black;border-collapse:collapse;color:black;">
+								<th style="border:2px solid black;border-collapse:collapse;color:black;">Vip</th>
+								<td style="border:2px solid black;border-collapse:collapse;color:black;">650R$</td>
+						</tr>		
+
+						<tr style="border:2px solid black;border-collapse:collapse;color:black;">
+								<th style="border:2px solid black;border-collapse:collapse;color:black;">Camarote</th>
+								<td style="border:2px solid black;border-collapse:collapse;color:black;">950R$</td>
+						</tr>
+                          <form style=color:black;>
+								<fieldset name="userinfo">
+								<legend style=color:black;>Informações do usuário</legend>
+								<label for="nome">Nome</label>
+								<input type="text" name="nome" size="40">
+								<label for="Email">Email</label>
+								<input type="email" name="email" size="40">
+								<label for="tipo">Tipo do Ingresso</label>
+								<input type="text" name="Tipo do Ingresso" size="40">
+								</fieldset>
+								<button type="submit" class="botao submit">Enviar</button>
+
+
+
+                        </form>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/pgXozIma-Oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</body>
