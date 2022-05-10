@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<h3>Área do canvas</h3>
+<canvas style="border: 2px black solid;" id="meuCanvas" width="300px" height="300px">
+Esse navegador não possui suporte ao canvas.
+</canvas>
+<script type="text/javascript">
+var cv = document.getElementById("meuCanvas");
+var ctx = cv.getContext("2d");
+ctx.fillRect(20, 60, 40, 20);
+ctx.fillRect(20, 80, 60, 20);
+ctx.fillRect(20, 100, 80, 20);
+</script>
+</body>
+</html>
