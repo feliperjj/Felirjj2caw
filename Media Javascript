@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <style>
+		body {
+			background-color: coral;
+		}
+	</style>
+   <meta charset="utf-8">      
+        <title>Calcular Média</title>
+        <script type="text/javascript">
+               function calculaMedia(nota1, nota2, peso1, peso2) {
+                   var media = 0;
+                   media = (parseFloat(nota1*peso1)+ parseFloat(nota2*peso2))/(parseFloat(peso1) + parseFloat(peso2)); 
+				  return media;			   
+               }
+               function limpaCampo(campo) {
+                    if(campo == 1) {
+                        document.form.nota1.value ="";    // pega o elemento nota 1 pelo formulário
+                    }
+                    if(campo == 2) {
+                        document.getElementById("nota2").value= "";    // podemos pegar o elemento pelo ID dele também
+                    }
+                    if(campo == 3) {
+                        document.getElementById("peso1").value= ""; 
+                   }
+                    if(campo == 4) {
+                        document.getElementById("peso2").value = "";
+                   }
+                  }
+               function media() {
+					// Get the value of the input field with id="numb"
+					let x = document.getElementById("media").value;
+					
+					// If x is Not a Number or less than one or greater than 10
+					let text;
+					if (isNaN(x) ||media < 6 ) {
+						text = "Reprovado";
+					} else {
+						text = "Aprovado";
+					}
+					document.getElementById("demo").innerHTML = text;
+			 
+                  return media;
+				}
+         </script>
+   </head>
+   <body>
+        <p class="titulo">CALCULA MÉDIA</p>
+       <form name="form">
+            <p>Nota 1: <input  type="text" size="20" id="nota1" value="Digite nota 1" onfocus="limpaCampo(1)";></p>
+            <p>Nota 2: <input  type="text" size="20" id="nota2" value="Digite nota 2" onfocus="limpaCampo(2)";> </p>
+            <p>Peso Nota 1: <input  type="text" size="20" id="peso1" value="Digite peso prova 1" onfocus="limpaCampo(3)";> </p>
+            <p>Peso Nota 2: <input  type="text" size="20" id="peso2" value="Digite peso prova 2" onfocus="limpaCampo(4)";> </p>
+            <p>Media Ponderada : <input type="text" id="mf" size="20" ></p>
+			<p>Media: <input type="text" id="media" size="20" ></p>
+			<input  type="button" value="Calcular" onclick="this.form.mf.value=calculaMedia(this.form.nota1.value,this.form.nota2.value,this.form.peso1.value,this.form.peso2.value);" >
+       </form>
+	   
+    </body>
+</html>
