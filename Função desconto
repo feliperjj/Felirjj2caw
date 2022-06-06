@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculando Desconto</title>
+		 <script>
+			
+			function desconto(valor){
+				var desconto=valor*0.5;
+				return desconto;
+			}
+	
+	   </script>
+        
+    </head>
+    
+	<body>
+      <p class="titulo">CALCULA DESCONTO</p>
+       <form>   
+		<p>Valor: <input type="text" size="20" id="valor"> </p>
+		<label>Desconto: <input type="text" size="20" id="desc"> </label>
+		<input type="button" value="Calcular" onclick="this.form.desc.value = desconto(this.form.valor.value);">	  
+	  </form>
+        
+
+    </body>
+</html>
